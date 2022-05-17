@@ -18,23 +18,7 @@ Esse é um artigo de HTML.
 
 Consectetur qui in velit pariatur adipisicing aliqua labore.
 
-## Elementos
-
-Veniam sint ea minim cillum dolor enim labore.
-
-### Form
-
-Voluptate cillum exercitation dolore aliquip in enim irure commodo adipisicing aliquip est occaecat.
-
-### Input
-
-In occaecat esse minim qui aute consequat veniam proident Lorem.
-
-```html
-<input/>
-```
-
-### Atributos do Input
+## Atributos
 
 - **accept:** aceita um tipo de arquivo específico
 - **alt:** descrição do input
@@ -65,6 +49,24 @@ In occaecat esse minim qui aute consequat veniam proident Lorem.
 - **src:** indica o caminho do input
 - **step:** indica o passo do input
 - **type:** indica o tipo do input
+
+## Elementos
+
+Veniam sint ea minim cillum dolor enim labore.
+
+### Form
+
+Voluptate cillum exercitation dolore aliquip in enim irure commodo adipisicing aliquip est occaecat.
+
+### Input
+
+In occaecat esse minim qui aute consequat veniam proident Lorem.
+
+<iframe width="100%" height="300" src="//jsfiddle.net/lukas13on/py1ctq7r/1/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+```html
+<input/>
+```
 
 ### Select
 
