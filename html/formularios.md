@@ -22,7 +22,11 @@ Consectetur qui in velit pariatur adipisicing aliqua labore.
 
 Veniam sint ea minim cillum dolor enim labore.
 
-## Input
+### Form
+
+Voluptate cillum exercitation dolore aliquip in enim irure commodo adipisicing aliquip est occaecat.
+
+### Input
 
 In occaecat esse minim qui aute consequat veniam proident Lorem.
 
@@ -62,7 +66,7 @@ In occaecat esse minim qui aute consequat veniam proident Lorem.
 - **step:** indica o passo do input
 - **type:** indica o tipo do input
 
-## Select
+### Select
 
 Ex consequat elit non sunt elit elit adipisicing duis fugiat sit velit culpa ex.
 
@@ -70,7 +74,7 @@ Ex consequat elit non sunt elit elit adipisicing duis fugiat sit velit culpa ex.
 <select></select>
 ```
 
-## Textarea
+### Textarea
 
 Ipsum amet dolore incididunt fugiat qui.
 
