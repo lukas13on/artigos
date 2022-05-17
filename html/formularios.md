@@ -62,7 +62,7 @@ Voluptate cillum exercitation dolore aliquip in enim irure commodo adipisicing a
 
 In occaecat esse minim qui aute consequat veniam proident Lorem.
 
-<iframe width="100%" height="300" src="//jsfiddle.net/lukas13on/py1ctq7r/2/embedded/html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" src="//jsfiddle.net/lukas13on/py1ctq7r/2/embedded/html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ```html
 <input/>
