@@ -18,7 +18,11 @@ Esse é um artigo de HTML.
 
 Consectetur qui in velit pariatur adipisicing aliqua labore.
 
-## Atributos
+## Elementos
+
+Os formulário HTML abrangem três elementos, sendo eles: `<form>`, `<input>`, `<select>` e `<textarea>`.
+
+### Atributos para os elementos
 
 - **accept:** aceita um tipo de arquivo específico
 - **alt:** descrição do input
@@ -50,10 +54,6 @@ Consectetur qui in velit pariatur adipisicing aliqua labore.
 - **step:** indica o passo do input
 - **type:** indica o tipo do input
 
-## Elementos
-
-Os formulário HTML abrangem três elementos, sendo eles: `<form>`, `<input>`, `<select>` e `<textarea>`.
-
 ### Form
 
 Voluptate cillum exercitation dolore aliquip in enim irure commodo adipisicing aliquip est occaecat.
@@ -62,7 +62,7 @@ Voluptate cillum exercitation dolore aliquip in enim irure commodo adipisicing a
 
 In occaecat esse minim qui aute consequat veniam proident Lorem.
 
-<iframe width="100%" src="//jsfiddle.net/lukas13on/py1ctq7r/2/embedded/html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" src="//jsfiddle.net/lukas13on/py1ctq7r/15/embedded/html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ```html
 <input/>
