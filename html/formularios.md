@@ -2,7 +2,7 @@
 
 <img src="./img/header.jpg"/>
 
-[Retornar à HTML](./html.md)
+[Retornar à HTML](./html.html)
 
 Esse é um artigo de HTML.
 
