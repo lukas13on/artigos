@@ -72,31 +72,20 @@ In occaecat esse minim qui aute consequat veniam proident Lorem.
 
 #### Tipos de input (type)
 
+Culpa commodo veniam Lorem ut fugiat dolor excepteur velit elit est reprehenderit.
+
+##### Principais
+
 - **text:** input de texto
-- **button:** input de botão
-- **checkbox:** input de checkbox
-- **color:** input de cor
-- **date:** input de data
-- **datetime-local:** input de data e hora
-- **email:** input de email
-- **file:** input de arquivo
-- **hidden:** input oculto
-- **image:** input de imagem
-- **month:** input de mês
 - **number:** input de número
+- **tel:** input de telefone
 - **password:** input de senha
 - **radio:** input de radio
+- **checkbox:** input de checkbox
 - **range:** input de intervalo
-- **reset:** input de reset
-- **search:** input de pesquisa
-- **submit:** input de enviar
-- **tel:** input de telefone
-- **text:** input de texto
-- **time:** input de hora
-- **url:** input de url
-- **week:** input de semana
+- **button:** input de botão
 
-##### Input de texto
+###### Input de texto
 
 Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
 
@@ -104,7 +93,7 @@ Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt cu
 <input type="text"/>
 ```
 
-##### Input de numero
+###### Input de numero
 
 Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
 
@@ -112,12 +101,143 @@ Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt cu
 <input type="number"/>
 ```
 
-##### Input de telefone
+###### Input de telefone
 
 Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
 
 ```html
 <input type="tel"/>
+```
+
+###### Input de seleção única
+
+Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+
+```html
+<input type="radio"/>
+```
+
+###### Input de caixa de seleção
+
+Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+
+```html
+<input type="checkbox"/>
+```
+
+###### Input de intervalo
+
+Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+
+```html
+<input type="range"/>
+```
+
+###### Input de botão
+
+Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+
+```html
+<input type="button"/>
+```
+
+##### Data e hora
+
+- **datetime-local:** input de data e hora
+- **date:** input de data
+- **time:** input de hora
+- **week:** input de semana
+- **month:** input de mês
+
+###### Input de data
+
+Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+
+```html
+<input type="date"/>
+```
+
+###### Input de hora
+
+Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+
+```html
+<input type="time"/>
+```
+
+###### Input de semana
+
+Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+
+```html
+<input type="week"/>
+```
+
+###### Input de mês
+
+Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+
+```html
+<input type="month"/>
+```
+
+###### Input de hora e data local
+
+Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+
+```html
+<input type="datetime-local"/>
+```
+
+##### Outros
+
+- **file:** input de arquivo
+- **color:** input de cor
+
+###### Input de arquivo
+
+Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+
+```html
+<input type="file"/>
+```
+
+###### Input de cor
+
+Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+
+```html
+<input type="color"/>
+```
+
+##### Controle
+
+- **submit:** input de envio do formulário
+- **reset:** input de limpeza o formulário
+- **hidden:** input oculto do formulário
+
+###### Input de envio
+
+Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+
+```html
+<input type="submit"/>
+```
+
+###### Input de limpeza
+
+Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+
+```html
+<input type="reset"/>
+```
+
+###### Input oculto
+
+Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+
+```html
+<input type="hidden"/>
 ```
 
 ### Select
