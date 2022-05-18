@@ -22,7 +22,7 @@ Consectetur qui in velit pariatur adipisicing aliqua labore.
 
 Os formulário HTML abrangem três elementos, sendo eles: `<form>`, `<input>`, `<select>` e `<textarea>`.
 
-### Atributos para os elementos
+### Atributos dos elementos de formulário
 
 - **accept:** aceita um tipo de arquivo específico
 - **alt:** descrição do input
@@ -58,19 +58,67 @@ Os formulário HTML abrangem três elementos, sendo eles: `<form>`, `<input>`, `
 
 Voluptate cillum exercitation dolore aliquip in enim irure commodo adipisicing aliquip est occaecat.
 
+```html
+<form></form>
+```
+
 ### Input
 
 In occaecat esse minim qui aute consequat veniam proident Lorem.
-
-<iframe width="100%" src="//jsfiddle.net/lukas13on/py1ctq7r/15/embedded/html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ```html
 <input/>
 ```
 
-#### Tipos de Input
+#### Tipos de input (type)
+
+- **text:** input de texto
+- **button:** input de botão
+- **checkbox:** input de checkbox
+- **color:** input de cor
+- **date:** input de data
+- **datetime-local:** input de data e hora
+- **email:** input de email
+- **file:** input de arquivo
+- **hidden:** input oculto
+- **image:** input de imagem
+- **month:** input de mês
+- **number:** input de número
+- **password:** input de senha
+- **radio:** input de radio
+- **range:** input de intervalo
+- **reset:** input de reset
+- **search:** input de pesquisa
+- **submit:** input de enviar
+- **tel:** input de telefone
+- **text:** input de texto
+- **time:** input de hora
+- **url:** input de url
+- **week:** input de semana
+
+##### Input de texto
 
 Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+
+```html
+<input type="text"/>
+```
+
+##### Input de numero
+
+Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+
+```html
+<input type="number"/>
+```
+
+##### Input de telefone
+
+Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+
+```html
+<input type="tel"/>
+```
 
 ### Select
 
