@@ -6,5 +6,4 @@ Aqui estão os artigos sobre HTML.
 
 ## Artigos: HTML
 
-- [Textos e imagens](html/textoseimagens.md)
 - [Formulários](html/formularios.md)

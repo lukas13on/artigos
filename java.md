@@ -1,9 +1,9 @@
-# Lucas de Oliveira Neitzke: Artigos - CSS
+# Lucas de Oliveira Neitzke: Artigos - Java
 
 [Retornar ao inicio](README.md)
 
 Aqui estão os artigos sobre CSS.
 
-## Artigos: CSS
+## Artigos: Java
 
 - [Em breve](#teste)
