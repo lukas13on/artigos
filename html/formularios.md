@@ -62,6 +62,131 @@ Voluptate cillum exercitation dolore aliquip in enim irure commodo adipisicing a
 <form></form>
 ```
 
+#### Principais atributos
+
+Consequat esse excepteur id ut culpa cillum aute ut.
+
+##### Ação (action)
+
+Nisi veniam consectetur voluptate amet et eiusmod voluptate ex dolor enim officia.
+
+```html
+<form action=""></form>
+```
+
+##### Método (method)
+
+Enim id duis mollit non occaecat eu.
+
+Métodos aceitos:
+
+- `GET`
+- `POST`
+- `PUT`
+- `DELETE`
+
+```html
+<form method=""></form>
+```
+
+##### Tipo de compilação (enctype)
+
+Enim eiusmod dolor non est nulla.
+
+Tipos aceitos:
+
+- `application/x-www-form-urlencoded`
+- `multipart/form-data`
+- `text/plain`
+
+```html
+<form enctype=""></form>
+```
+
+##### Tipo de codificação (accept-charset)
+
+Reprehenderit commodo officia ad consequat ullamco aliquip non aliqua.
+
+Tipos aceitos:
+
+- `UTF-8`
+- `ISO-8859-1`
+
+```html
+<form accept-charset=""></form>
+```
+
+#### Atributos complementares
+
+Ullamco aliquip labore ex id deserunt tempor.
+
+##### Não validar (novalidate)
+
+Ex anim sint ipsum ad et ad reprehenderit commodo consequat commodo veniam.
+
+```html
+<form novalidate></form>
+```
+
+##### Auto preenchimento (autocomplete)
+
+Laborum laborum culpa mollit id non nulla anim.
+
+Tipos aceitos:
+
+- `on`
+- `off`
+
+```html
+<form autocomplete=""></form>
+```
+
+##### Alvo (target)
+
+Ipsum tempor culpa elit ut dolore dolore sint.
+
+Tipos aceitos:
+
+- `_blank`
+- `_self`
+- `_parent`
+- `_top`
+
+```html
+<form target=""></form>
+```
+
+##### Nome (name)
+
+Officia enim amet eu esse exercitation.
+
+```html
+<form name=""></form>
+```
+
+##### Relativo (rel)
+
+Est aliquip dolor irure deserunt veniam est aliquip esse aliquip ea occaecat ipsum magna in.
+
+Tipos aceitos:
+
+- `alternate`
+- `author`
+- `bookmark`
+- `help`
+- `license`
+- `next`
+- `nofollow`
+- `noreferrer`
+- `prefetch`
+- `prev`
+- `search`
+- `tag`
+
+```html
+<form rel=""></form>
+```
+
 ### Input
 
 In occaecat esse minim qui aute consequat veniam proident Lorem.
