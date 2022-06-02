@@ -16,11 +16,11 @@ Esse é um artigo de HTML.
 
 ## Introdução
 
-Consectetur qui in velit pariatur adipisicing aliqua labore.
+Os formulários são elementos do HTML que permitem ao usuário interagir com o site e enviar dados coletados pela interação para um servidor interno ou externo.
 
 ## Elementos
 
-Os formulário HTML abrangem três elementos, sendo eles: `<form>`, `<input>`, `<select>` e `<textarea>`.
+Os formulários em HTML abrangem três elementos, sendo eles: `<form>`, `<input>`, `<select>` e `<textarea>`. Esses elementos são essenciais para a interação com o usuário. Não é necessário utilizar todos os elementos, mas é importante que seja utilizado o `<form>` e ao menos um `<input>`, `<select>` ou `<textarea>` para que o usuário possa preencher e enviar os dados.
 
 ### Atributos dos elementos de formulário
 
@@ -56,7 +56,7 @@ Os formulário HTML abrangem três elementos, sendo eles: `<form>`, `<input>`, `
 
 ### Form
 
-Voluptate cillum exercitation dolore aliquip in enim irure commodo adipisicing aliquip est occaecat.
+O `<form>` é o elemento de formulário mais importante do HTML. Ele é utilizado para enviar dados para um servidor interno ou externo.
 
 ```html
 <form></form>
@@ -64,19 +64,20 @@ Voluptate cillum exercitation dolore aliquip in enim irure commodo adipisicing a
 
 #### Principais atributos
 
-Consequat esse excepteur id ut culpa cillum aute ut.
+Os principais atributos do `<form>` são:
 
 ##### Ação (action)
 
-Nisi veniam consectetur voluptate amet et eiusmod voluptate ex dolor enim officia.
+A ação do formulário é o caminho relativo ou absoluto para o servidor interno ou externo.
 
 ```html
-<form action=""></form>
+<form action="https://google.com.br"></form>
+<form action="caminho/pagina.php"></form>
 ```
 
 ##### Método (method)
 
-Enim id duis mollit non occaecat eu.
+O método do formulário é o tipo de método utilizado na requisição.
 
 Métodos aceitos:
 
@@ -85,27 +86,31 @@ Métodos aceitos:
 - `PUT`
 - `DELETE`
 
+Somente é aceito um tipo por vez.
+
 ```html
-<form method=""></form>
+<form method="GET"></form>
+<form method="POST"></form>
 ```
 
-##### Tipo de compilação (enctype)
+##### Tipo de midia (enctype)
 
-Enim eiusmod dolor non est nulla.
+Define o tipo de mídia utilizado na requisição do formulário.
 
 Tipos aceitos:
 
-- `application/x-www-form-urlencoded`
-- `multipart/form-data`
+- `application/x-www-form-urlencoded` (padrão)
+- `multipart/form-data` (formulário com envio de arquivos)
 - `text/plain`
 
 ```html
-<form enctype=""></form>
+<form enctype="application/x-www-form-urlencoded"></form>
+<form enctype="multipart/form-data"></form>
 ```
 
 ##### Tipo de codificação (accept-charset)
 
-Reprehenderit commodo officia ad consequat ullamco aliquip non aliqua.
+Define o tipo de codificação aceita pelo servidor.
 
 Tipos aceitos:
 
@@ -113,16 +118,17 @@ Tipos aceitos:
 - `ISO-8859-1`
 
 ```html
-<form accept-charset=""></form>
+<form accept-charset="UTF-8"></form>
+<form accept-charset="ISO-8859-1"></form>
 ```
 
 #### Atributos complementares
 
-Ullamco aliquip labore ex id deserunt tempor.
+Existem alguns atributos complementares que podem ser utilizados no `<form>`:
 
 ##### Não validar (novalidate)
 
-Ex anim sint ipsum ad et ad reprehenderit commodo consequat commodo veniam.
+Isso indica que o formulário não deve ser validado.
 
 ```html
 <form novalidate></form>
@@ -130,7 +136,7 @@ Ex anim sint ipsum ad et ad reprehenderit commodo consequat commodo veniam.
 
 ##### Auto preenchimento (autocomplete)
 
-Laborum laborum culpa mollit id non nulla anim.
+Ao preencher o formulário, os campos serão preenchidos automaticamente conforme, depende da compatibilidade do navegador.
 
 Tipos aceitos:
 
@@ -138,35 +144,38 @@ Tipos aceitos:
 - `off`
 
 ```html
-<form autocomplete=""></form>
+<form autocomplete="on"></form>
+<form autocomplete="off"></form>
 ```
 
 ##### Alvo (target)
 
-Ipsum tempor culpa elit ut dolore dolore sint.
+Determina se o formulário abrirá em uma nova janela, ou se abrirá na mesma janela.
 
 Tipos aceitos:
 
-- `_blank`
-- `_self`
-- `_parent`
-- `_top`
+- `_blank` (abrirá em uma nova janela)
+- `_self` (abrirá na mesma janela)
+- `_parent` (abrirá na janela pai)
+- `_top` (abrirá na janela superior)
 
 ```html
-<form target=""></form>
+<form target="_self"></form>
+<form target="_blank"></form>
 ```
 
 ##### Nome (name)
 
-Officia enim amet eu esse exercitation.
+Nome do formulário.
 
 ```html
-<form name=""></form>
+<form name="cadastro"></form>
+<form name="acesso"></form>
 ```
 
-##### Relativo (rel)
+##### Relação (rel)
 
-Est aliquip dolor irure deserunt veniam est aliquip esse aliquip ea occaecat ipsum magna in.
+Define a relação entre o formulário e a página atual.
 
 Tipos aceitos:
 
@@ -184,12 +193,14 @@ Tipos aceitos:
 - `tag`
 
 ```html
-<form rel=""></form>
+<form rel="search"></form>
+<form rel="tag"></form>
 ```
 
 ### Input
 
-In occaecat esse minim qui aute consequat veniam proident Lorem.
+O `<input>` é o elemento de entrada mais importante do HTML. Ele é utilizado para criar formulários, preencher dados, etc. O `<input>` não possui fechamento de tag como os demais elementos do HTML como o `<form>`.
+
 
 ```html
 <input/>
@@ -197,7 +208,7 @@ In occaecat esse minim qui aute consequat veniam proident Lorem.
 
 #### Tipos de input (type)
 
-Culpa commodo veniam Lorem ut fugiat dolor excepteur velit elit est reprehenderit.
+Há uma variedade de diferentes tipos de entrada que podem ser utilizada no input, sendo elas:
 
 ##### Principais
 
@@ -212,7 +223,7 @@ Culpa commodo veniam Lorem ut fugiat dolor excepteur velit elit est reprehenderi
 
 ###### Input de texto
 
-Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+O tipo de texto é utilizado para preencher dados que contenham qualquer texto (numeros, caracteres especiais e etc).
 
 ```html
 <input type="text"/>
@@ -220,7 +231,7 @@ Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt cu
 
 ###### Input de numero
 
-Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+O tipo de numero é utilizado para preencher dados que contenham apenas números.
 
 ```html
 <input type="number"/>
@@ -228,7 +239,7 @@ Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt cu
 
 ###### Input de telefone
 
-Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+O tipo de telefone é utilizado para preencher dados que contenham apenas números de telefones ou celulares.
 
 ```html
 <input type="tel"/>
@@ -236,7 +247,7 @@ Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt cu
 
 ###### Input de seleção única
 
-Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+O tipo de seleção única é utilizado para preencher dados que contenham apenas uma opção.
 
 ```html
 <input type="radio"/>
@@ -244,7 +255,7 @@ Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt cu
 
 ###### Input de caixa de seleção
 
-Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+O tipo de caixa de seleção é utilizado para preencher dados que contenham mais de uma opção.
 
 ```html
 <input type="checkbox"/>
@@ -252,7 +263,7 @@ Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt cu
 
 ###### Input de intervalo
 
-Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+O tipo de intervalo é utilizado para preencher dados que contenham apenas números de intervalo.
 
 ```html
 <input type="range"/>
@@ -260,7 +271,7 @@ Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt cu
 
 ###### Input de botão
 
-Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+O tipo de botão é utilizado para criar botões.
 
 ```html
 <input type="button"/>
@@ -276,7 +287,7 @@ Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt cu
 
 ###### Input de data
 
-Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+O tipo de data é utilizado para preencher dados que contenham apenas datas.
 
 ```html
 <input type="date"/>
@@ -284,7 +295,7 @@ Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt cu
 
 ###### Input de hora
 
-Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+O tipo de hora é utilizado para preencher dados que contenham apenas horas.
 
 ```html
 <input type="time"/>
@@ -292,7 +303,7 @@ Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt cu
 
 ###### Input de semana
 
-Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+O tipo de semana é utilizado para preencher dados que contenham apenas semanas.
 
 ```html
 <input type="week"/>
@@ -300,7 +311,7 @@ Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt cu
 
 ###### Input de mês
 
-Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+O tipo de mês é utilizado para preencher dados que contenham apenas meses.
 
 ```html
 <input type="month"/>
@@ -308,7 +319,7 @@ Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt cu
 
 ###### Input de hora e data local
 
-Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+O tipo de hora e data local é utilizado para preencher dados que contenham apenas horas e datas.
 
 ```html
 <input type="datetime-local"/>
@@ -321,7 +332,7 @@ Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt cu
 
 ###### Input de arquivo
 
-Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+O tipo de arquivo é utilizado para preencher dados que contenham apenas arquivos.
 
 ```html
 <input type="file"/>
@@ -329,7 +340,7 @@ Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt cu
 
 ###### Input de cor
 
-Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+O tipo de cor é utilizado para preencher dados que contenham apenas cores.
 
 ```html
 <input type="color"/>
@@ -343,7 +354,7 @@ Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt cu
 
 ###### Input de envio
 
-Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+o tipo de envio é utilizado para enviar dados do formulário.
 
 ```html
 <input type="submit"/>
@@ -351,7 +362,7 @@ Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt cu
 
 ###### Input de limpeza
 
-Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+O tipo de limpeza é utilizado para limpar dados do formulário.
 
 ```html
 <input type="reset"/>
@@ -359,7 +370,7 @@ Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt cu
 
 ###### Input oculto
 
-Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt culpa ullamco tempor minim.
+O tipo de oculto é utilizado para preencher dados que não serão exibidos.
 
 ```html
 <input type="hidden"/>
@@ -367,7 +378,7 @@ Quis commodo ut excepteur reprehenderit nisi qui adipisicing nulla incididunt cu
 
 ### Select
 
-Ex consequat elit non sunt elit elit adipisicing duis fugiat sit velit culpa ex.
+Elit ex in irure in aliquip.
 
 ```html
 <select></select>
