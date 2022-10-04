@@ -16,7 +16,7 @@
         - [Variaveis de configuração](#variaveis-de-configuração)
       - [Instalando o Wordpress](#instalando-o-wordpress)
       - [Finalizando a instalação](#finalizando-a-instalação)
-- [Referências](#referências)
+  - [Referências](#referências)
 
 ## Introdução
 
@@ -87,7 +87,7 @@ Caso a instalação tenha ocorrido com sucesso, será aberta uma página para vo
 
 Caso você tenha exito na instalação, você será redirecionado para a página de login do Wordpress.
 
-# Referências
+## Referências
 Abaixo estão as referências utilizadas na confecção deste artigo.
 
 - [(How to install WordPress – WordPress.org Forums) https://wordpress.org/support/article/how-to-install-wordpress/](https://wordpress.org/support/article/how-to-install-wordpress/)
