@@ -14,9 +14,13 @@ let nomeVariavel;
 ```js
 var string;
 string = "minha string";
+// minha string
 string = 'mudou para';
+// mudou para
 string = `um valor`;
+// um valor
 string = new String('primitivo');
+// primitivo
 ``` 
 
 ## Números
@@ -24,8 +28,13 @@ string = new String('primitivo');
 ```js
 var numero;
 numero = 10;
+// 10
 numero = 10.79;
+// 10.79
 numero = Number("10.56");
+// 10.56
+numero = Number(`7,94`);
+// NaN
 ```
 
 ### NaN
@@ -34,8 +43,12 @@ Não é um numero...
 ## Arrays
 
 ```js
-var lista = [];
-lista = new Array();
+var frutas = ["Banana", `Morango`];
+// Banana, Morango
+frutas = new Array("Melancia", 'Kiwi');
+// Melancia, Kiwi
+frutas = Array("Uva", new String(`Abacate`));
+// Uva, Abacate
 ```
 
 ## Objetos
@@ -86,6 +99,12 @@ const arrow = (a, b) => {
 };
 ```
 
+### Callback
+
+```js
+
+```
+
 ### Construtor
 
 ```js
@@ -93,4 +112,10 @@ function Pessoa(nome){
     this.nome = nome;
     return this;
 }
+```
+
+### Generator
+
+```js
+
 ```
