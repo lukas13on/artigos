@@ -102,6 +102,13 @@ const arrow = (a, b) => {
 ### Callback
 
 ```js
+function callback(texto){
+    console.log('Olá ' + mundo)
+}
+const executar = (callback) => {
+    callback('mundo')
+}
+executar(callback)
 
 ```
 
@@ -119,3 +126,5 @@ function Pessoa(nome){
 ```js
 
 ```
+
+### Prototipação
