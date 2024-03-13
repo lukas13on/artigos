@@ -112,19 +112,34 @@ executar(callback)
 
 ```
 
-### Construtor
-
-```js
-function Pessoa(nome){
-    this.nome = nome;
-    return this;
-}
-```
-
 ### Generator
 
 ```js
 
 ```
 
+### Classes
+
+```js
+class Pessoa {
+    nome = 'Lucas'
+    sobrenome = 'Neitzke'
+
+    getNome(){
+
+    }
+}
+```
+
+
+### Construtor
+
+```js
+
+```
+
 ### Prototipação
+
+```js
+
+```
