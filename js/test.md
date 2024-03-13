@@ -81,6 +81,8 @@ function declarativa(a, b){
 const expressiva = function(a, b){
     return a + b;
 };
+expressiva(5, 5);
+// 10
 ```
 
 ### Anonima
@@ -88,7 +90,8 @@ const expressiva = function(a, b){
 ```js
 const anonima = (function(a, b){
     return a + b;
-});
+})(2, 2);
+// 4
 ```
 
 ### Arrow
@@ -97,6 +100,8 @@ const anonima = (function(a, b){
 const arrow = (a, b) => {
   return a + b;
 };
+arrow(1, 2)
+// 3
 ```
 
 ### Callback
@@ -109,6 +114,7 @@ const executar = (callback) => {
     callback('mundo')
 }
 executar(callback)
+// ola mundo
 
 ```
 
@@ -126,20 +132,52 @@ class Pessoa {
     sobrenome = 'Neitzke'
 
     getNome(){
+        return this.nome;
+    }
 
+    getSobrenome(){
+        return this.sobrenome;
     }
 }
-```
 
+const pessoa = new Pessoa().getSobrenome()
+// neitzke
+```
 
 ### Construtor
 
 ```js
+class Pessoa {
+    nome = '';
+    sobrenome = '';
 
+    constructor(nome, sobrenome){
+        this.nome = nome;
+        this.sobrenome = sobrenome;
+    }
+
+    getNomeCompleto(){
+        return this.nome + ' ' + this.sobrenome;
+    }
+}
+
+const pessoa = new Pessoa('lucas', 'neitzke').getNomeCompleto()
+// lucas neitzke
 ```
 
 ### Prototipação
 
 ```js
+function Pessoa(nome, sobrenome){
+    this.nome = nome
+    this.sobrenome = sobrenome
+    return this;
+}
+
+Pessoa.prototype.getNomeCompleto = function(){
+    return this.nome + ' ' + this.sobrenome;
+}
+
+pessoa = new Pessoa('lucas', 'neitzke')
 
 ```
