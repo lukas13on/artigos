@@ -161,7 +161,8 @@ class Pessoa {
     }
 }
 
-const pessoa = new Pessoa('lucas', 'neitzke').getNomeCompleto()
+const pessoa = new Pessoa('lucas', 'neitzke')
+const nomeCompleto = pessoa.getNomeCompleto()
 // lucas neitzke
 ```
 
